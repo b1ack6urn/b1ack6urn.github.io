@@ -1,0 +1,1 @@
+sudo apt install libffi-dev build-essential ruby-dev
