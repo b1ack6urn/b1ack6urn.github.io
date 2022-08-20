@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "5ef9fe306ca3c046",
+    "type": "split",
+    "children": [
+      {
+        "id": "db73023f714db70e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-08-21-restricted-access.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80d0416fba7347d3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "53c14f7a1c5305ca",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "52ed61f6ac8f6b8b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "0932a74cf902902f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "fc71ccb842696734",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "24ce5d8813164a9b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ccec736964086943",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "_posts/2022-08-21-restricted-access.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "85b05aa07ca12446",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "_posts/2022-08-21-restricted-access.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "58543e4dce3a4583",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "_posts/2022-08-21-restricted-access.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "db73023f714db70e",
+  "lastOpenFiles": [
+    "_posts/2022-05-11-leakyapi.md",
+    "_posts/2022-05-12-awscognito.md",
+    "_posts/2022-06-13-droid-exfiltraitor.md",
+    "_posts/2022-08-21-restricted-access.md",
+    "_posts/2022-05-15-self-cert.md",
+    "_posts/2019-05-01-idor.md",
+    "_posts/2022-06-12-follina.md",
+    "_posts/sheet.bak.md"
+  ]
+}

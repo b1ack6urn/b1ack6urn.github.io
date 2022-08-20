@@ -9,7 +9,7 @@ tags:
   - AWS Cognito
 ---
 ### Scope of Work
-The Scope of Work and its Details are Redacted under NDA.
+The Scope of Work and its Details are Redacted under ROE.
 {: .notice--danger}
 
 ### Introduction
