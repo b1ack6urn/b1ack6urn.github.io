@@ -8,9 +8,9 @@ tags:
   - DevOps
 ---
 
-Many Businesses rely on 3rd Party Cyber Security Vendors to audit their Asset Inventory for possible Vulnerabilities and their associated Risk and Impact, and for this reason, at times, the Vendor might need to be in their Private Internal Network. 
-This might cause concerns within the Management regarding the Privileges held by the systems of Vendors in their network.
-To mitigate this, we can create a Least Privileged System in our own Private Network and allow only specific set of tasks that can be executed by the Vendor.
+Many Businesses rely on 3rd Party Cyber Security Vendors to audit their Asset Inventory for possible Vulnerabilities and their associated Risk and Impact, and for this reason, at times, the Vendor might need to be in their Private Internal Network. \
+This might cause concerns within the Management regarding the Privileges held by the systems of Vendors in their network. \
+To mitigate this, we can create a Least Privileged System in our own Private Network and allow only specific set of tasks that can be executed by the Vendor. \
 I have listed the steps below to achieve the following:
 
 ## User Creation
@@ -65,7 +65,7 @@ sudo bash -c 'echo "restrictedUser ALL=(ALL) NOPASSWD: /usr/bin/find / -name *" 
 
 ```
 
-These steps will create a Least Privileged User which can connect only from the Whitelisted IPs and can execute the following 2 Commands:
+These steps will create a Least Privileged User which can connect only from the Whitelisted IPs and can execute the following 2 Commands as ROOT:
 - `nano /etc/hosts`
 - `find / -name someName`
 
