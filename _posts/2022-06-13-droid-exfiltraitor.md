@@ -1,5 +1,5 @@
 ---
-title: "Test Droid-Exfiltraitor: How you can compromise Intranet Windows Machine using an Android Phone"
+title: "Droid-Exfiltraitor: How you can compromise Intranet Windows Machine using an Android Phone"
 date: 2022-06-13
 categories:
   - POCs
