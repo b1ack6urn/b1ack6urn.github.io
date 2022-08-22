@@ -111,7 +111,7 @@ It successfully updated the value and when I logged-in I got all the privileges 
 
 ---
 ### Threat & Impact
-Since it was a 3-day engagement I had to sum up the engagement on successful privilege escalation. Hence I could not leverage it further to Remote Code Execution from the Admin Panel.
+Since it was a 3-day timeboxed engagement I had to sum up the engagement on successful privilege escalation. Hence I could not leverage it further to Remote Code Execution from the Admin Panel.
 
 Anyways, that still brings the threat that it can be chained with a social engineering attack to trick Faculties, Students and other users for malicious intent, etc
 
