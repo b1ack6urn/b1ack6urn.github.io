@@ -25,7 +25,9 @@ I then, went after the GitHub Recon in the hopes of finding its repositories or 
 I tried several Search Filters and searched for keywords related to the `dashboard.target.com` and `api.target.com` but obviously all their repositories were Private returning no data.
 
 I then broadened my search and looked for public repositories with the same name as of the client's, to which I got several Repos (around 10).
-All these public repos were unfinished and unmanaged since a year and was built using Angular.
+
+All these public repos were unfinished and unmanaged since a year and were built using Angular.
+
 Having worked with it before I knew the Environment variables, APIs and Tokens are stored in `environment.*.ts`, `*.service.ts` and `*.interceptor.service.ts` files respectively.
 
 Out of these repos, I found that 2 repos had hardcoded API domain and Token 
@@ -33,10 +35,10 @@ though the API domain is from **development** env `api.dev.target.com`
 
 Following are the contents of those.
 
-![[image-12.png]]
+![pic1](image-12.png)
 
 
-![[image-15.png]]
+![pic2](image-15.png)
 
 
 Hence, I got the following data:
@@ -47,7 +49,7 @@ Hence, I got the following data:
 The commits where from 2021 so I was expecting the Tokens would have expired by now.
 Still giving it a shot, I hit the dev endpoint and BINGO! The API returned data with status code 200.
 
-![[image-9.png]]
+![pic3](image-9.png)
 
 
 The same dev token didn't work for the prod `api.target.com` thereby inferring that the developers hardcoded those values for development but also unknowingly pushed the code in public repositories.
