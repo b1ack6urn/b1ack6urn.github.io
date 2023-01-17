@@ -35,10 +35,10 @@ though the API domain is from **development** env `api.dev.target.com`
 
 Following are the contents of those.
 
-![pic1](assets/images/poc/image-12.png)
+![pic1](/assets/images/poc/image-12.png)
 
 
-![pic2](assets/images/poc/image-15.png)
+![pic2](/assets/images/poc/image-15.png)
 
 
 Hence, I got the following data:
@@ -49,7 +49,7 @@ Hence, I got the following data:
 The commits where from 2021 so I was expecting the Tokens would have expired by now.
 Still giving it a shot, I hit the dev endpoint and BINGO! The API returned data with status code 200.
 
-![pic3](assets/images/poc/image-9.png)
+![pic3](/assets/images/poc/image-9.png)
 
 
 The same dev token didn't work for the prod `api.target.com` thereby inferring that the developers hardcoded those values for development but also unknowingly pushed the code in public repositories.
@@ -58,6 +58,6 @@ Since this Finding is from `api.dev.target.com`  which is out of scope, I respon
 
 They immediately terminated the token.
 
-![[image-10.png]]
+![pic4](/assets/images/poc/image-10.png)
 
 Rest in Pieces, the token :)
